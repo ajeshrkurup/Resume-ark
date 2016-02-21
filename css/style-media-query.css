@@ -1,113 +1,6 @@
-/* Variables */
-
-$primary-color: #3b5a76;
-$background-color: #ededed;
-$text-color: #363636;
-$font: 16px;
-
-
-body {
-    font-family: 'Open Sans', sans-serif;
-    color: $text-color;
-    background: $background-color;
-    font-size: $font;
-        
-}
-
-.primary, h2, strong {
-    color: $primary-color;
-}
-
-#profile-img {
-    height: 180px;
-    width: 160px;
-    margin: auto;
-    margin-top: -70px;
-    display: block;
-}
-
-section {
-    background-color: #ffffff;
-    width: 90%;
-    margin: 80px auto;
-    padding: 0 30px 30px 30px;
-}
-
-header {
-    min-height: 100px;
-    overflow: auto;
+@media screen and (max-width: 1000px) {
     
-    h1 {
-        margin: 0;
-        padding: 10px 0 10px 0;
-        font-size: 2em;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: -1px;
-        text-align: center;
-        line-height: 1.4em;
-    }
-    
-
-}
-
-h2 {
-    
-    font-size: 1.5em;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align:left;
-    line-height: 1.4em;
-
-}
-
-.about-content {
-    letter-spacing: 1.2px;
-    line-height: 1.5em;
-}
-
-.contact-list {
-    padding: 0;
-    margin: 0;
-    li {
-        list-style: none;
-        font-weight: bold;
-        line-height: 3.2em;
-        margin-left: 10px;
-    }
-    a:hover {
-        cursor: pointer;
-        
-    }
-}
-
-.contact-icon {
-    height: 30px;
-    width: 30px;
-    margin-right: 5px;    
-}
-
-.media {
-    background: $background-color;
-    padding: 10px;
-    
-    h4{
-        line-height: 1.5em;
-        font-weight: bold;
-    }
-}
-
-.year {
-    margin-right: 10px;
-    padding: 10px;
-}
-
-.prog-style {
-    margin-bottom: 25px;
-    margin-left: 15px;   
-}
-
-#project-container {
+    #project-container {
    
     height: 350px;
     
@@ -118,7 +11,7 @@ h2 {
     height: 250px;
     margin: 20px 20px 20px 10px;
     width: 30%;
-    float: left;
+    float: none;
     position: relative;
 }
 
@@ -182,7 +75,7 @@ h2 {
     height: 250px;
     margin: 20px 20px 20px 10px;
     width: 30%;
-    float: left;
+    float: none;
     position: relative;
 }
 
@@ -248,7 +141,7 @@ h2 {
     height: 250px;
     margin: 20px 20px 20px 10px;
     width: 30%;
-    float: left;
+    float: none;
     position: relative;
 }
 
@@ -308,16 +201,4 @@ h2 {
     
 }
 
-
-
-
-
-footer {
-    margin-top: 30px;
-    padding: 15px 0 15px 0;
-    text-align: right;
-    background: $primary-color;
-    color: #fff;
-    width: 100%;
 }
-
