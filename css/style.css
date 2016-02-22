@@ -84,7 +84,9 @@ h2 {
   margin: 20px 1%;
   width: 30%;
   float: left;
-  position: relative; }
+  position: relative;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px; }
 
 #project-1 img {
   max-width: 100%;
@@ -138,7 +140,9 @@ h2 {
   margin: 20px 1%;
   width: 30%;
   float: left;
-  position: relative; }
+  position: relative;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px; }
 
 #project-2 img {
   max-width: 100%;
@@ -192,7 +196,9 @@ h2 {
   margin: 20px 1%;
   width: 30%;
   float: left;
-  position: relative; }
+  position: relative;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px; }
 
 #project-3 img {
   max-width: 100%;
@@ -240,6 +246,12 @@ h2 {
   border: 1px solid white;
   cursor: pointer;
   background-color: #000; }
+
+#project-3-details a.nolink:hover {
+  border: 1px solid white;
+  cursor: not-allowed !important;
+  background-color: #fff;
+  opacity: .1; }
 
 footer {
   margin-top: 30px;

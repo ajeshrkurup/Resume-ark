@@ -120,6 +120,8 @@ h2 {
     width: 30%;
     float: left;
     position: relative;
+    border: 1px solid #a6a6a6;
+    border-radius: 10px;
 }
 
 #project-1 img {
@@ -184,6 +186,8 @@ h2 {
     width: 30%;
     float: left;
     position: relative;
+    border: 1px solid #a6a6a6;
+    border-radius: 10px;
 }
 
 #project-2 img {
@@ -250,7 +254,10 @@ h2 {
     width: 30%;
     float: left;
     position: relative;
+    border: 1px solid #a6a6a6;
+    border-radius: 10px;
 }
+
 
 #project-3 img {
     max-width: 100%;
@@ -305,6 +312,14 @@ h2 {
     border: 1px solid white;
     cursor: pointer;
     background-color: #000;
+    
+}
+
+#project-3-details a.nolink:hover {
+    border: 1px solid white;
+    cursor: not-allowed !important;
+    background-color: #fff;
+    opacity: .1;
     
 }
 
